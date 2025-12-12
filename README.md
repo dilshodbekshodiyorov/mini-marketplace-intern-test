@@ -1,16 +1,44 @@
-# React + Vite
+# 🛒 Mini Marketplace - Frontend Stajyor Test Topshirig‘i
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu kichik Single Page Application (SPA) bo'lib, mahsulotlar katalogini ko'rish, ularni savatga qo'shish va savatdan o'chirish funksiyalarini bajaradi.
 
-Currently, two official plugins are available:
+## 👩‍💻 Bajaruvchi Ma'lumotlari
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Ism: Dilshodbek
+* Vazifa Qancha Vaqt Oldi: Taxminan 3 — 4 soat (dizayn, JS fetch, React parts, localStorage integration, responsiv CSS)
+* Qiyin Bo‘lgan Joylar:
+    * Vanilla JS (Katalog) va React (Savat) orasida Custom Events orqali holatni sinxronlash.
+    * CDN orqali ulangan React komponentlarida useState va useEffect hook'larini muvaffaqiyatli ishlatish.
+    * UI kutubxonalarsiz Flex/Grid asosida toza, responsiv (mobil/desktop) layoutni yaratish.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Texnologiyalar Steki
 
-## Expanding the ESLint configuration
+| Qism | Texnologiya | Izoh |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Katalog (Products) | Vanilla JavaScript, Fetch API | Mahsulotlarni yuklash va DOM ga joylash. |
+| Savat (Cart) | React (Hooks: useState, useEffect) | Savat holatini boshqarish va komponentli renderlash. |
+| Data Flow | Custom Events, localStorage | JS va React o'rtasida ma'lumotlar almashinuvi va saqlash. |
+| Layout | Pure CSS (Flexbox, Media Queries) | Talab qilingan ikki ustunli va mobil ko'rinish. |
+
+---
+
+##  Loyihani Ishga Tushirish
+
+1.  Repositoryni klonlash: git clone [https://github.com/dilshodbekshodiyorov/mini-marketplace-intern-test]
+2.  Katalogga o'tish: cd mini-marketplace-intern-test
+3.  Dependensiyalarni o'rnatish: npm install
+4.  Loyihani ishga tushirish: npm run dev
+
+## 🖼 Interfeys Skrinshotlari
+
+*(Vazifani topshirishdan oldin bu yerga loyihaning Desktop va Mobil ko'rinishlarini yuklashingiz tavsiya etiladi.)*
+
+* <img width="1882" height="907" alt="Skrinshot 2025-12-12 143211" src="https://github.com/user-attachments/assets/c0d3158b-7d8b-43dd-a09c-e29dd6a6aea0" />
+
+*<img width="360" height="797" alt="image" src="https://github.com/user-attachments/assets/9ef23303-b7ab-4d3f-a310-d7056b1b6d2e" />
+
+## 🌐 Demo
+
+> Demo: [https://mini-marketplace-intern-test.vercel.app/]
