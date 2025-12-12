@@ -35,9 +35,9 @@ Bu kichik Single Page Application (SPA) bo'lib, mahsulotlar katalogini ko'rish, 
 
 *(Vazifani topshirishdan oldin bu yerga loyihaning Desktop va Mobil ko'rinishlarini yuklashingiz tavsiya etiladi.)*
 
-* <img width="1882" height="907" alt="Skrinshot 2025-12-12 143211" src="https://github.com/user-attachments/assets/c0d3158b-7d8b-43dd-a09c-e29dd6a6aea0" />
+* <img width="1882" height="907" alt="Skrinshot 2025-12-12 143211" src="https://raw.githubusercontent.com/dilshodbekshodiyorov/mini-marketplace-intern-test/refs/heads/main/public/desktop.png" />
 
-*<img width="360" height="797" alt="image" src="https://github.com/user-attachments/assets/9ef23303-b7ab-4d3f-a310-d7056b1b6d2e" />
+*<img width="360" height="797" alt="image" src="https://raw.githubusercontent.com/dilshodbekshodiyorov/mini-marketplace-intern-test/refs/heads/main/public/mobile.png" />
 
 ## 🌐 Demo
 
